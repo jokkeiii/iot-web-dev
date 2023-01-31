@@ -1,0 +1,70 @@
+h1 {
+    color: rgb(0, 129, 169);
+}
+h2 {
+    color: rgb(0, 129, 169);
+}
+h3 {
+    color: rgb(0, 129, 169);
+}
+p {
+    color: white;
+}
+body {
+    background-color: #161313;
+}
+a {
+    color: blue;
+}
+
+/* Class attributes */
+.larger {
+    font-size: larger;
+}
+
+/* Id attributes */
+#green {
+    color: green;
+}
+#red-area {
+    background-color: red;
+    color: blue;
+    width: 450px;
+}
+#p-area {
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+}
+#p-float {
+    float: left;
+    width: 600px;
+    margin: 10px;
+    padding: 10px;
+}
+#a-area {
+    width: 600px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 2.5px;
+}
+
+/* 3 boxes, (red, green and blue) */
+#red-box {
+    background-color: red;
+    border: 5px solid white;
+}
+#green-box {
+    background-color: green;
+    border-radius: 25px;
+}
+#blue-box {
+    background-color: blue;
+    border-radius: 50%;
+}
+/* and their measurements */
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
