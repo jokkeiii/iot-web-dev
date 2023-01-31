@@ -6,7 +6,7 @@
 
 */
 
-/*
+
 console.log('Log from External File!');
 
 const myString = 'Hello';
@@ -100,7 +100,7 @@ while (true) {
   console.log(x);
   x++;
 }
-*/
+
 function sayHello(name, friend) {
   console.log(`Hello ${name} and ${friend}!!!`);
 }
