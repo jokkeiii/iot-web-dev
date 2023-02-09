@@ -9,7 +9,7 @@ const person = {
 };
 
 // here i make variable from the method inside the object
-const myName = person.name();
+const myName = person.fullName();
 
 console.log(person.firstName, person.lastName, person.id, myName);
 
