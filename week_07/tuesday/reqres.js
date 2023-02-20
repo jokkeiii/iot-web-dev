@@ -10,7 +10,7 @@ fetch('https://reqres.in/api/users?page=2&per_page=5')
 
 console.log(userData);
 */
-/*
+
 // fetch multiple users
 // function formats and prints userid : userfirstname userlastname
 printUsers = (users) => {
@@ -31,10 +31,10 @@ fetchUsers = async() => {
 }
 
 fetchUsers();
-*/
+
 
 // fetch single user
-/*
+
 printUsers = (user) => {
     
     console.log(`${user.id} : ${user.first_name} ${user.last_name}`);
@@ -52,10 +52,10 @@ fetchUser = async(id) => {
 }
 
 fetchUser(5);
-*/
+
 // post
 // async
-/*
+
 createUser = async (user) => {
     try {
         // also fetch but give init values as object
@@ -88,7 +88,7 @@ const newUser = {
 
 createUser(newUser);
 
-*/
+
 
 deleteUser = async (id) => {
 
