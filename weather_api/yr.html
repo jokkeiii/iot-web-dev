@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+</head>
+<body>
+    <script>
+        const apiUrl = "https://api.met.no/weatherapi/locationforecast/2.0/compact?lat=61.4978&lon=23.7610"
+        const fetchWeather = async () => {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+                // set variable to instant weather info data
+                const instantDetails = data.properties.timeseries[0].data.instant.details;
+                // log the datapoint in instantDetails§§
+                console.log("Air temperature now is: " + instantDetails.air_temperature);
+            } catch (error) {
+                console.log(error);
+            }
+        }
+
+        fetchWeather();
+    </script>
+</body>
+</html>
